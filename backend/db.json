@@ -1,0 +1,410 @@
+{
+  "dishes": [
+    {
+      "id": "r7PoC1t",
+      "name": "Carpaccio canape",
+      "value": 6,
+      "cost": 1.5078987820621388,
+      "ingredients": [
+        {
+          "id": "13e4874c-161a-404b-b081-839972f9d50e",
+          "component": "Capers",
+          "purPrice": 46.57,
+          "preparationLoss": 1,
+          "requiredUn": 5,
+          "measurementUn": "g",
+          "purQty": 675,
+          "purUnit": "g",
+          "unitCost": 0.34496296296296297
+        },
+        {
+          "id": "0abf1313-0bb0-4fde-a33a-e45080988cce",
+          "component": "Dijon mustard",
+          "purPrice": 19.47,
+          "preparationLoss": 0.95,
+          "requiredUn": 2.4,
+          "measurementUn": "g",
+          "purQty": 330.46,
+          "purUnit": "g",
+          "unitCost": 0.14884515046012417
+        },
+        {
+          "id": "8f0e65ea-c75f-4043-a45c-de8f97da9c6e",
+          "component": "English sauce",
+          "purPrice": 5,
+          "preparationLoss": 1,
+          "requiredUn": 2.5,
+          "measurementUn": "mL",
+          "purQty": 337.5,
+          "purUnit": "mL",
+          "unitCost": 0.037037037037037035
+        },
+        {
+          "id": "4d43a2d6-bde4-4d22-9427-2323aa62750b",
+          "component": "Extra virgin olive oil",
+          "purPrice": 59,
+          "preparationLoss": 1,
+          "requiredUn": 13,
+          "measurementUn": "mL",
+          "purQty": 1.75,
+          "purUnit": "L",
+          "unitCost": 0.4382857142857143
+        },
+        {
+          "id": "11225996-0142-47dc-b099-55fd33a0476c",
+          "component": "Tahiti lemon juice",
+          "purPrice": 11.68,
+          "preparationLoss": 0.25,
+          "requiredUn": 2.5,
+          "measurementUn": "mL",
+          "purQty": 1.18,
+          "purUnit": "L",
+          "unitCost": 0.09898305084745762
+        },
+        {
+          "id": "7d63843e-b44e-4dd5-8fea-4048533fb2c8",
+          "component": "Wholemeal bread",
+          "purPrice": 3.94,
+          "preparationLoss": 1,
+          "requiredUn": 25,
+          "measurementUn": "g",
+          "purQty": 337,
+          "purUnit": "g",
+          "unitCost": 0.2922848664688427
+        },
+        {
+          "id": "fff77199-52b1-47fa-aca5-cd476bf8ac8e",
+          "component": "kitchen salt",
+          "purPrice": 5.9,
+          "preparationLoss": 1,
+          "requiredUn": 25,
+          "measurementUn": "g",
+          "purQty": 1,
+          "purUnit": "kg",
+          "unitCost": 0.1475
+        }
+      ]
+    },
+    {
+      "id": "Zxo8lqE",
+      "name": "Cheseburguer",
+      "value": 19,
+      "cost": 9.085333333333333,
+      "ingredients": [
+        {
+          "id": "b51693eb-0134-4a61-bf39-51c4a24d1ca7",
+          "component": "Cheese",
+          "purPrice": 19,
+          "preparationLoss": 1,
+          "requiredUn": 20,
+          "measurementUn": "g",
+          "purQty": 500,
+          "purUnit": "g",
+          "unitCost": 0.76
+        },
+        {
+          "id": "a37416a9-003a-495a-97a6-f536f3889244",
+          "component": "Meat",
+          "purPrice": 59,
+          "preparationLoss": 0.75,
+          "requiredUn": 80,
+          "measurementUn": "g",
+          "purQty": 1,
+          "purUnit": "kg",
+          "unitCost": 6.293333333333333
+        },
+        {
+          "id": "5dd1e391-a285-42bc-94a4-f573f44d0aec",
+          "component": "Bread",
+          "purPrice": 8,
+          "preparationLoss": 1,
+          "requiredUn": 1,
+          "measurementUn": "unit",
+          "purQty": 10,
+          "purUnit": "unit",
+          "unitCost": 0.8
+        },
+        {
+          "id": "419c372a-7536-4893-8c05-6cdd44bd1671",
+          "component": "Letuce",
+          "purPrice": 6.99,
+          "preparationLoss": 0.75,
+          "requiredUn": 40,
+          "measurementUn": "g",
+          "purQty": 400,
+          "purUnit": "g",
+          "unitCost": 0.932
+        },
+        {
+          "id": "509657cf-6cf0-478a-8ec8-9e1a59b810ee",
+          "component": "sauce",
+          "purPrice": 12,
+          "preparationLoss": 1,
+          "requiredUn": 25,
+          "measurementUn": "mL",
+          "purQty": 1,
+          "purUnit": "L",
+          "unitCost": 0.3
+        }
+      ]
+    },
+    {
+      "id": "uVVHn17",
+      "name": "Flamed Banana",
+      "value": 8,
+      "cost": 5.110833333333333,
+      "ingredients": [
+        {
+          "id": "673a33de-f95b-446a-9bb7-e418f6f39dd6",
+          "component": "Banana",
+          "purPrice": 6.99,
+          "preparationLoss": 0.9,
+          "requiredUn": 125,
+          "measurementUn": "g",
+          "purQty": 1,
+          "purUnit": "kg",
+          "unitCost": 0.9708333333333333
+        },
+        {
+          "id": "fd44b4f8-8f02-4cfd-bb98-a62bc989224d",
+          "component": "Whiskey",
+          "purPrice": 69,
+          "preparationLoss": 1,
+          "requiredUn": 60,
+          "measurementUn": "mL",
+          "purQty": 1,
+          "purUnit": "L",
+          "unitCost": 4.14
+        }
+      ]
+    },
+    {
+      "id": "QCXOBnU",
+      "name": "chayote with meat",
+      "value": 8,
+      "cost": 6.098039215686274,
+      "ingredients": [
+        {
+          "id": "1b7efdf2-9e24-415e-a6ea-220bc93e38e6",
+          "component": "Chayote",
+          "purPrice": 10,
+          "preparationLoss": 0.85,
+          "requiredUn": 150,
+          "measurementUn": "g",
+          "purQty": 1,
+          "purUnit": "kg",
+          "unitCost": 1.7647058823529411
+        },
+        {
+          "id": "5a40078c-2488-45e3-b5e9-88c092b779e4",
+          "component": "Meat",
+          "purPrice": 39,
+          "preparationLoss": 0.9,
+          "requiredUn": 100,
+          "measurementUn": "g",
+          "purQty": 1,
+          "purUnit": "kg",
+          "unitCost": 4.333333333333333
+        }
+      ]
+    }
+  ],
+  "stock": [
+    {
+      "id": "0155555yu654",
+      "itemName": "Azeite de amendoins",
+      "quantity": 10,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "015532423f23f234",
+      "itemName": "Azeite de coco",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0155f32fyh4h4",
+      "itemName": "Azeite de canola",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0155dsadg4u5i874",
+      "itemName": "Azeite de algodão",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 2
+    },
+    {
+      "id": "dsfgjyjggf",
+      "itemName": "Água desmineralizada",
+      "quantity": 1,
+      "measurement": "kg",
+      "minQuantity": 0
+    },
+    {
+      "id": "01212421554",
+      "itemName": "Leite de búfala",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0155csa3r4",
+      "itemName": "Leite de cabra",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0155df24h4",
+      "itemName": "Piña colada",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "015f313bn6554",
+      "itemName": "Blood Mary",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "011356436554",
+      "itemName": "Vinho",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "01fbr4h53hsgds554",
+      "itemName": "Suco de laranja",
+      "quantity": 1,
+      "measurement": "g",
+      "minQuantity": 0
+    },
+    {
+      "id": "01554r1vbrrerg",
+      "itemName": "Leite desnatado",
+      "quantity": 0,
+      "measurement": "L",
+      "minQuantity": 1
+    },
+    {
+      "id": "01b3b4b54554",
+      "itemName": "Leite de soja (em caixa)",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "01554232323",
+      "itemName": "Suco de manga",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "01d22dchg554",
+      "itemName": "Suco de uvas",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 5
+    },
+    {
+      "id": "dceveg2222efgadsa",
+      "itemName": "Suco de maçã",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0155d8458cxascascc4",
+      "itemName": "Refrigerante",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "bdsvxvvnht",
+      "itemName": "Água mineiral",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "0bnggngf1554",
+      "itemName": "Azeite",
+      "quantity": 5,
+      "measurement": "g",
+      "minQuantity": 1
+    },
+    {
+      "id": "01dsggwegg554",
+      "itemName": "Cerveja",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "015fgeg54",
+      "itemName": "Leite",
+      "quantity": 1,
+      "measurement": "L",
+      "minQuantity": 0
+    },
+    {
+      "id": "af4319c2-5739-4e33-9969-6b2245735318",
+      "itemName": "Óleo de dendê",
+      "quantity": 4,
+      "measurement": "unit",
+      "minQuantity": 5
+    },
+    {
+      "id": "30d36176-cf9b-4d02-8260-d2185852ea49",
+      "itemName": "Banana da terra",
+      "quantity": 5,
+      "measurement": "L",
+      "minQuantity": 5
+    },
+    {
+      "id": "236077ca-657b-4c43-917a-16a473a6cc9b",
+      "itemName": "Leite Integral",
+      "quantity": 0,
+      "measurement": "unit",
+      "minQuantity": 0
+    },
+    {
+      "id": "9db48d72-68b0-487d-a89c-8f29d2e2cca7",
+      "itemName": "Leite Longa Vida",
+      "quantity": 0,
+      "measurement": "unit",
+      "minQuantity": 0
+    },
+    {
+      "id": "bd70f374-d8ce-444e-82b0-f868e0b97327",
+      "itemName": "Leitelho",
+      "quantity": 0,
+      "measurement": "unit",
+      "minQuantity": 0
+    },
+    {
+      "id": "8758aaaf-4702-48a6-bf1e-7f1e175d0a42",
+      "itemName": "Creme de Leite",
+      "quantity": 0,
+      "measurement": "unit",
+      "minQuantity": 0
+    },
+    {
+      "id": "ca9a2d3a-24bf-4802-b4ba-672e5758779c",
+      "itemName": "Leite Condesado",
+      "quantity": 0,
+      "measurement": "unit",
+      "minQuantity": 0
+    }
+  ]
+}
