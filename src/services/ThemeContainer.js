@@ -1,21 +1,17 @@
 import React from "react";
-// react intl is the multi language library
-import { IntlProvider } from "react-intl";
-// PortugueseBR and English files have the same structure but with different expressions in each language
-import English from "../lang/en.json";
-import PortuguseBR from "../lang/pt-BR.json";
-// the custom hook to storage the default language cookie
+//imports to theme provider. On global component have main CSS to background and default font size
+import { ThemeProvider } from "styled-components";
+
+// imports to select theme. Here is the specifics dark/ght mode colors
+import { lightTheme } from "../styles/themes/light";
+import { darkTheme } from "../styles/themes/dark";
+// the custom hook to storage the default theme cookie
 import { usePersistedState } from "../helpers/usePersistedState";
-
 //create context allow us to access the language vars and functins in any app location without the need to pass it by props to every child component
-export const LanguageContext = React.createContext();
 
-//the app default language is english
-const local = "en";
-let lang = English;
+export const ThemeModeContext = React.createContext();
 
-const LanguageContainer = (props) => {
-
+const ThemeContainer = (props) => {
 
   // theme change functions e for storage in browser
   const [theme, setTheme] = usePersistedState("theme", "light");
@@ -23,29 +19,14 @@ const LanguageContainer = (props) => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
 
-  
-
-
-  const [locale, setLocale] = usePersistedState("locale", local);
-  const [messages, setMessages] = usePersistedState("language", lang);
-
-  function toggleLanguage() {
-    if (locale === "en") {
-      setLocale("pt-BR");
-      setMessages(PortuguseBR);
-    } else {
-      setLocale("en");
-      setMessages(English);
-    }
-  }
-
   return (
-    <LanguageContext.Provider value={{ locale, toggleLanguage }}>
-      <IntlProvider messages={messages} locale={locale}>
+    <ThemeModeContext.Provider value={{ theme, toggleTheme }}>
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         {props.children}
-      </IntlProvider>
-    </LanguageContext.Provider>
+      </ThemeProvider>
+    </ThemeModeContext.Provider>
+      
   );
 };
 
-export default LanguageContainer;
+export default ThemeContainer;

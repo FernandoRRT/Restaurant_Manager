@@ -17,7 +17,7 @@ import { alpha } from "@mui/material/styles";
 import { MUISwitchDiv } from "./MUISwitchDiv";
 import { LogoutMenuIcon } from "./LogoutMenuIcon";
 
-const MUIDrawer = ({ toggleTheme }) => {
+const MUIDrawer = () => {
   const location = window.location.pathname;
   const { title, colors } = useContext(ThemeContext);
   //functions to drawner
@@ -83,7 +83,7 @@ const MUIDrawer = ({ toggleTheme }) => {
 
       <Box sx={{ textAlign: "center" }}>
         <Breakpoint small down>
-          <MUISwitchDiv toggleTheme={toggleTheme} />
+          <MUISwitchDiv />
         </Breakpoint>
       </Box>
     </Box>

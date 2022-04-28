@@ -11,7 +11,7 @@ import { HeadDiv, HeaderContainer, IpadMiniBreakpoint } from "../../styles/divSt
 
 
 
-const PageHeader = ({ toggleTheme }) => {
+const PageHeader = () => {
 
   return (
     <HeaderContainer>
@@ -22,7 +22,7 @@ const PageHeader = ({ toggleTheme }) => {
       */}
       <Breakpoint medium down>
         <IpadMiniBreakpoint>
-          <MUIDrawer toggleTheme={toggleTheme}/>
+          <MUIDrawer/>
         </IpadMiniBreakpoint>
       </Breakpoint>
 
@@ -37,7 +37,7 @@ const PageHeader = ({ toggleTheme }) => {
       </HeadDiv>
       {/* The react-socks breakpoint to dont load the swith to change the light/dark mode and the togglelanguage */}
       <Breakpoint small up>
-        <MUISwitchDiv toggleTheme={toggleTheme} />
+        <MUISwitchDiv />
       </Breakpoint>
     </HeaderContainer>
   );

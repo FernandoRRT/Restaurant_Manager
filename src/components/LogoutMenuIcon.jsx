@@ -14,7 +14,7 @@ const { onSignOut } = useAuthContext();
 const handleExit = () => {
     signOutEndpoint();
     onSignOut();
-}
+} 
 
 
 
