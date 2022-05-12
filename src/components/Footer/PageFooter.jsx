@@ -22,12 +22,12 @@ const PageFooter = () => {
             </BaseSocialIconButton>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/">
-          <BaseSocialIconButton basecolor={"#0072b1"}>
+          <BaseSocialIconButton basecolor={"#0077b5"}>
                 <Linkedin />
             </BaseSocialIconButton>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5551993261772">
-          <BaseSocialIconButton basecolor={"#34B7F1"}>
+          <BaseSocialIconButton basecolor={"#25D366"}>
                 <WhatsApp />
             </BaseSocialIconButton>
           </a>

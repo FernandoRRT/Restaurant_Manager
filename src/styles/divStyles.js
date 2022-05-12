@@ -186,7 +186,7 @@ export const SiteLogoDiv = styled.div`
 `;
 
 
-export const SideNavUl = styled.div`
+export const SideNavUl = styled.div` 
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -195,7 +195,7 @@ export const SideNavUl = styled.div`
 export const SideNavLi = styled.div`
   padding: 5px 0 5px 5px;
   margin: 0;
-  background: ${(props) => (props.active ? ({ theme }) => theme.colors.frontBackground : "")};
+  background: ${(props) => (props.active ? ({ theme }) => theme.colors.background : "")};
   border-left: ${(props) => (props.active 
   ? (({ theme }) => `5px solid ${theme.colors.secondary}`)
   : ""
@@ -216,7 +216,7 @@ export const SideNavLi = styled.div`
     border-top-right-radius: 25px 50%;
     border-bottom-right-radius: 25px 50%;
     cursor:pointer;
-    background: ${({ theme }) => theme.colors.frontBackground};
+    background: ${({ theme }) => theme.colors.background};
     border-left: 5px solid ${({ theme }) => theme.colors.secondary};
     transition: all 0.01s ease-in-out;
     color: ${({ theme }) => theme.colors.primaryText};

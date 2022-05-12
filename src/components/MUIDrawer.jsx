@@ -55,7 +55,7 @@ const MUIDrawer = () => {
               fontWeight: 600,
               fontSize: "18px",
               backgroundColor:
-                item.route === location ? `${colors.frontBackground}` : "",
+                item.route === location ? `${colors.background}` : "",
               color:
                 item.route === location
                   ? `${colors.primaryText}`
@@ -66,7 +66,7 @@ const MUIDrawer = () => {
               borderBottomRightRadius: "25px 50%",
               "&:hover": {
                 color: `${colors.primaryText}`,
-                backgroundColor: `${colors.frontBackground}`,
+                backgroundColor: `${colors.background}`,
                 borderLeft: `5px solid ${colors.secondary}`,
               },
             }}

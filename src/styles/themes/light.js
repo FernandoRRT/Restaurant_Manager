@@ -7,7 +7,7 @@ export const lightTheme = {
         oposite: '#000000',
         primaryText: '#232E3C',
         secondaryText: '#656D77',
-        btnPrimary: '#206BC4',
+        btnPrimary: '#206BC4', 
         btnSecondary: '#656D77',
         btnSucess: '#2FB344',
         btnDanger: '#D63939',
